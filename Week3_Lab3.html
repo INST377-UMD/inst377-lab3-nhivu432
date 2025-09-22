@@ -1,0 +1,54 @@
+<html>
+    <head>
+        <title>INST 377 - Lab3</title>
+        <link rel="stylesheet" href="Week3_Lab3.css">
+    </head>
+    <body>
+        <!-- Header Section -->
+        <header id="bar">
+           <h1>Lab3 - Rock Paper Scissors</h1>
+        </header>
+
+        <!-- Navigation Section -->
+        <nav id="main-nav">
+            <ul>
+                <li><a href="https://www.rpsgame.org/" target="_black">Game Details</a></li>
+                <li><a href="https://www.google.com/" target="_blank">Google</a></li>  
+                <li><a href="https://www.youtube.com/" target="_blank">Youtube</a></li>
+            </ul>
+        </nav>
+        <!-- Main Content Section -->
+        <div class="main-container">
+            <div class="main-content">
+                <h3>Please choose one of the following.</h3>
+                <form id="selection">
+                    <label for="name">Name: </label>
+                    <input type="text" id="name" required>
+                    <br>
+                    <label for="game"> Your choice</label>
+                    <select id="game">
+                        <option value="Rock"> Rock</option>
+                        <option value="Paper"> Paper</option>
+                        <option value="Scissors" selected> Scissors</option>
+                    </select>
+                    <br>
+                    <input type="submit">
+                </form>
+            </div>
+            <aside id="rules">
+                <h3><u>Rules</u></h3>
+                <h3> You must choose Rock, Paper, or Scissors</h3>
+                <h3>The Combos are as follow:</h3>
+                <ul>
+                    <li>Rock beats Scissors</li>
+                    <li>Scissors beats Paper</li>
+                    <li>Paper beats Rock</li>
+                </ul>
+            </aside>
+        </div>
+        <!-- Footer -->
+        <footer id="bar">
+            <p>This is a footer. Have a good day!</p>
+        </footer>
+    </body>
+</html>
